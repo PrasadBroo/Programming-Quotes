@@ -1,12 +1,12 @@
 {
   "name": "quotes-website",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "nedb": "^1.8.0",
+    "mongoose": "^5.9.25",
     "nodemon": "^2.0.4"
   },
   "devDependencies": {},
@@ -15,5 +15,15 @@
     "start": "nodemon server.js"
   },
   "author": "Prasad Shinde",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrasadBroo/Programming-Quotes.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/PrasadBroo/Programming-Quotes/issues"
+  },
+  "homepage": "https://github.com/PrasadBroo/Programming-Quotes#readme",
+  "description": ""
 }
