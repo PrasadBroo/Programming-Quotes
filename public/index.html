@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Popular Quotes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar bg-dark text-light p-2 justify-content-between">
+        <h1 class="">Quotes</h1>
+        <button class="btn btn-success qbtn">Upload Quote</button>
+    </nav>
+    <div id="loader"></div>
+    <div class="result container">
+        <!-- <blockquote class="blockquote alert alert-success p-3 mt-3 rounded">
+            <p class="mb-0 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">Someone famous</footer>
+          </blockquote>
+          <blockquote class="blockquote alert alert-info p-3 mt-3 rounded">
+            <p class="mb-0 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer ">Someone famous</footer>
+          </blockquote>
+          <blockquote class="blockquote alert alert-warning p-3 mt-3 rounded">
+            <p class="mb-0 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">Someone famous</footer>
+          </blockquote>
+          <blockquote class="blockquote alert alert-dark p-3 mt-3 rounded">
+            <p class="mb-0 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">Someone famous</footer>
+          </blockquote> -->
+    </div>
+
+    <form action="/postQuote" method="POST" class="container d-none">
+        <label for="author">Enter Author Name</label>
+        <input type="text" name="author" id="author" class="form-control" required>
+        <label for="quote-info">Enter Quote</label>
+        <input type="text" name="authorContent" id="quote-info" class="form-control" required>
+        <button type="submit" class="btn btn-success form-control mt-2 sbtn">Submit</button>
+
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
